@@ -1,7 +1,244 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Terrance Wang</title>
+  <meta charset="utf-8">
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-119888602-1');
+  </script>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
+
+  <!--JQuery-->
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script>
+
+  <!--Custom-->
+  <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
+  <script src="assets/js/landing.js"></script>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="container" id="main">
+
+  <!--LANDING-->
+  <div class="title">Terrance Wang</div>
+  <div class="subtitle">I am <span id="jobtitle">an <span id="job" class="bold">engineer.</span></span></div>
+  <div class="descript">
+    Computer Science & Data Science <br>
+    UC Berkeley, Class of 2020 <br>
+  </div>
+
+  <!--ABOUT-->
+  <div class="subsubtitle">About</div>
+  <div class="row">
+    <div class="col-7">
+      <div class="text">
+        <div>I'm a senior student at <a href="https://www.berkeley.edu/" target="_blank" class="link">
+        UC Berkeley</a>. I have been curious about COMPUTERS since I was playing Medal of Honors in
+         the 00s and was fortunate enough to study COMPUTERS at Berkeley.</div> 
+        <br>
+        <div>So I have been formally exploring COMPUTERS in college. Python. Then Java. Some iOS followed.
+          C got me down to memory. Then artificial intelligence surpassed me in terms of intelligence. And 
+          the exploration goes on, in the meantime of which, I travelled to 12 countries.
+        </div>
+        <br>
+        <div>Then I started in the industry doing frontend, did some tool-making in autonomous driving research, 
+          and got captured by systems and backend, which I'm focusing on now.</div>
+        <br>
+        Take a loot at my
+        <a href="assets/files/resume.pdf" target="_blank" class="link">resume</a>,
+        <a href="http://github.com/ConglinWang" class="link" target="_blank">GitHub</a>,
+        <a href="http://linkedin.com/in/terrancewang/" class="link" target="_blank">LinkedIn</a>, and
+        <a href="mailto:conglin.wang@berkeley.edu" class="link">email</a>.
+      </div>
+    </div>
+    <div class="col-5">
+      <img id="will" src="img/pic.jpg" alt="me">
+    </div>
+  </div>
+
+  <!--Education-->
+  <div class="subsubtitle">Education</div>
+
+  <div class="row">
+    <div class="col-8">
+      <div class="supersubtitle">University of California, Berkeley</div>
+      <div class="work-desc row">
+        <div class="col-6">B.A. Computer Science</div>
+      </div>
+      <div class="work-desc row">
+        <div class="col-6">B.A. Data Science</div>
+        <div class="col-6" style="text-align: right;">Aug 2016 - May 2020</div>
+      </div>
+      <div class="text" style="text-align: justify">
+        <div>Tech Courses:</div>
+        <div>• CS 61A - Structure and Interpretation of Computer Programs</div>
+        <div>• CS 61B - Data Structures</div>
+        <div>• CS 61C - Computer Architecture</div>
+        <div>• CS 70 - Discrete Mathematics and Probability Theory</div>
+        <div>• CS 170 - Efficient Algorithms and Intractable Problems</div>
+        <div>• CS 162 - Operating Systems and System Programming</div>
+        <div>• CS 186 - Introduction to Database Systems</div>
+        <div>• CS 188 - Introduction to Artificial Intelligence</div>
+        <div>• CS C100 - Principles and Techniques of Data Science</div>
+        <div>• CS 198 - iOS Development</div>
+        <div>• STAT 140 - Probability for Data Science</div>
+      </div>
+    </div>
+    <div class="col-4"><img class="work-img" src="img/berkeley-logo.png"></div>
+  </div>
+
+  <!--Experience-->
+  <div class="subsubtitle">Experience</div>
+
+  <div class="row">
+    <div class="col-8">
+      <div class="supersubtitle">Ant Financial</div>
+      <div class="work-desc row">
+        <div class="col-6">Software Engineer Intern</div>
+        <div class="col-6" style="text-align: right;">Summer 2019</div>
+      </div>
+      <div class="text" style="text-align: justify">
+        <div>• Interned in the AliPay merchant services team at Alibaba subsidiary <a href="https://en.wikipedia.org/wiki/Ant_Financial" 
+          target="_blank" class="link"> Ant Financial</a> to build efficient, scalable, reliable and
+           extensible Java backend applications, under a microservices architecture that provides an 
+           easy-to-use payment solution to over one million small businesses.</div>
+        <div>• Designed a server-side Java application named ZMP (Z Message Pivotal), a unified 
+          message-delivery engine to simplify content delivery to end users. Implemented design 
+          patterns including factory, facade and visitor modes to make code extensible.</div>
+        <div>• Integrated with packages including Apache Commons, Lombok and Log4j to improve code
+           maintainability and used Maven to manage dependencies.</div>
+        <div>• Utilized Java ExecutorService, internal middleware and DevOps tools including fault
+           tolerance, message queues, distributed databases for higher concurrency and availability.</div>
+        <div>• Worked with teammates on the merchant VIP card project. Modeled the system with UML,
+           wrote up system analysis documents, performed code reviews and fixed bugs. Improved test 
+           coverage with JUnit and Mockito.</div>
+      </div>
+    </div>
+    <div class="col-4"><img class="work-img" src="img/ant_financial_logo.png"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-8">
+      <div class="supersubtitle">Berkeley Mechanical Control Systems Lab</div>
+      <div class="work-desc row">
+        <div class="col-6">Research Assistant</div>
+        <div class="col-6" style="text-align: right;">Sept 2018</div>
+      </div>
+      <div class="text" style="text-align: justify">
+        <div>• Developed the browser-based LIDAR data visualizer used to label 3D point-cloud training data 
+          in JSON format as part of the lab’s autonomous driving project, using Javascript, HTML and WebGL 
+          library.</div>
+        <div>• Improved user experience by supporting batch-loading JSON files and assistive labeling 
+          based on history.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-8">
+      <div class="supersubtitle">Bi.XYZ</div>
+      <div class="work-desc row">
+        <div class="col-6">Frontend Software Engineer Intern</div>
+        <div class="col-6" style="text-align: right">Summer 2018</div>
+      </div>
+      <div class="text" style="text-align: justify">
+        <div>• Developed and maintained the price chart module of the cryptocurrency exchange startup’s web portal in Javascript, HTML and
+            CSS, utilizing Angular JS, WebSocket protocol, D3 and TradingView libraries.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-8">
+      <div class="supersubtitle">CS 61B Data Structures @ UC Berkeley</div>
+      <div class="work-desc row">
+        <div class="col-6">Academic Intern</div>
+        <div class="col-6" style="text-align: right;">Aug 2017 - Dec 2017</div>
+      </div>
+      <div class="text" style="text-align: justify">
+        <div>• Answer questions on Java programming language, data structures and algorithms for students during office hours.</div>
+        <div>• Helped students debug on their Java projects and lab assignments during weekly lab sessions.</div>
+      </div>
+    </div>
+  </div>
+
+  <!--Projects-->
+  <div class="subsubtitle">Projects</div>
+  <div class="text">
+    The following are a few of the many projects I have been working on in the recent years, ranging from database, operating systems, 
+    AI, and web application. Some of them have been open-sourced on Github. Hover on the titles to check out the code.
+  </div>
+  <div class="supersubtitle">
+      Gather, a Social Network Based on Geo-index and Image Recognition
+  </div>
+  <br>
+  <div class="text">
+    <div>• Designed and implemented a location-based social network web application with React JS.</div>
+    <div>• Implemented features for users to create posts and browse or search for nearby posts with Ant Design,
+        GeoLocation API and Google Map API.</div>
+    <div>• Used token-based registration/login/logout flow with React Router v4 and JWT on the server side to
+        improve authentication process.</div>
+    <div>• Built a scalable web service in Go to handle posts and deployed to Google Cloud (GAE flex) for better
+        scaling.</div>
+    <div>• Utilized ElasticSearch (GCE) to support location-based searching functionality such that users could search
+        for posts within a distance (e.g. 200km).</div>
+    <div>• Used Google Dataflow to implement a daily dump of posts to BigQuery table for offline analysis.
+        Aggregated the data at post and user levels using BigQuery to improve keyword-based spam detection.</div>
+    <div>• Used Google Cloud ML and Tensorflow to train a face detection model and integrated with the Go service.</div>
+
+    
+  </div>
+  <div class="supersubtitle">
+    <a href="https://github.com/ConglinWang/pintos" target="_blank" class="link">
+      Pintos, an Elementary Operating System
+    </a>
+  </div>
+  <br>
+  <div class="text">
+      <div>• Improved the original thread scheduling mechanism of the X86 Pintos educational operating system by
+         implementing the lock priority donation and the multi-level feedback queue scheduling algorithms.</div>
+      <div>• Added support for running user programs with arguments and improved user experience by automatically
+         resolving relative file paths.</div> 
+      <div>• Implemented process control system calls including halt, exec, wait, practice.</div>
+      <div>• Implemented file operation system calls including create, remove, open, filesize, read, write, seek, tell,
+      close and directory management system calls including chdir, mkdir, readdir, ids'.</div>
+      <div>• Improved the original file system by supporting extensible file size up to 8MiB and faster file reads and
+      writes with a buffer cache.</div>
+  </div>
+  <div class="supersubtitle">RDBMS</div>
+  <br>
+  <div class="text">
+      <div>• Built a relational database system in Java that supports SQL commands including database/table CRUD, 
+        conditional selection, sorting and join operations.</div>
+      <div>• Designed the system with B+ Tree indexing and query optimization to improve query speed.</div>
+      <div>• Implemented External Sorting, Nested Loop Join and Sort-Merge Join algorithms for faster sorting and join.</div>
+      <div>• Added support for concurrent queries with multi-granularity locking on different levels of resources
+      including databases, tables, pages, and records.</div>
+      <div>• Tested the program with JUnit to guarantee proper handling of malformed commands, illegal values, large
+      datasets and corner cases to prevent crash.</div>
+  </div>
+</div>
+
 </body>
 </html>
+
