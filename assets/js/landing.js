@@ -1,5 +1,5 @@
 var jobs = ["software engineer", "senior student @ Cal", "classical music fan", "hiking enthusiast", "traveller"];
-var articles = ["", "", "", "", ""];
+var articles = ["a", "a", "a", "a", "a"];
 var index;
 
 function changeJob() {
